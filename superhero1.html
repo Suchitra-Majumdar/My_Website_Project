@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		body{
+			background-image: linear-gradient(blue,black);
+
+		}
+		.container{
+			display: grid;
+			grid-template-rows: 200px auto 100px;
+			/*height: 800px;*/
+			background-image: linear-gradient(lightblue,gray);
+			margin: 40px;
+			border-radius: 10px;
+		}
+		.heroes{
+			display: flex;
+			justify-content: space-evenly;
+		}
+		.hero img{
+			width: 200px;
+			height: 200px;
+			/*border: 5px solid blue;*/
+			/*border-radius: 10px;*/
+			/*transition: background-color 1s ease .2s*/
+			/*padding: 10px;*/
+
+		}
+		/*.hero img:hover{
+			transform: scale(1.5);
+			background-color: blue;
+			color: white;
+		}*/
+		.hero{
+			/*transition: background-color 1s ease .2s;*/
+			/*transition: background-color 1s ease .2s, color 1s ease .2s ;*/
+		}
+		.hero:hover{
+			transform: scale(1.5);
+			transition: background-color 1s ease .2s/*, color 1s ease .2s ;*/
+			background-color: blue;
+			color: white;
+
+		}
+
+		
+		/*}*/
+	</style>
+</head>
+<body>
+
+	<div class="container">
+		<div class="header">
+			<h1>My favourite superheroes</h1>
+			
+		</div>
+		<div class="heroes">
+			<div class="hero">
+				<!-- <iframe width="200" height="200" src="https://www.youtube.com/embed/Vese9a_nu5A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+				<!-- <video src="https://www.youtube.com/watch?v=Vese9a_nu5A"></video> -->
+				<!-- <iframe src="https://www.youtube.com/watch?v=Vese9a_nu5A" autoplay;></iframe> -->
+				<!-- <img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/b/b0/Spider-Man_FFH_Profile.jpg/revision/latest/scale-to-width-down/310?cb=20190917181733"> -->
+				<a href="https://www.youtube.com/embed/Vese9a_nu5A" target="_blank"><img src="https://static.wikia.nocookie.net/marvelcinematicuniverse/images/b/b0/Spider-Man_FFH_Profile.jpg/revision/latest/scale-to-width-down/310?cb=20190917181733"></a>
+				
+
+				<h3>Spiderman</h3>
+			</div>
+			<div class="hero">
+				<iframe width="200" height="200" src="https://www.youtube.com/embed/zhdiEwCHQ4g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<!-- <img src="https://static.wikia.nocookie.net/batman/images/0/0b/Batman_%28Prime_Earth%29.png/revision/latest/top-crop/width/360/height/450?cb=20190905061036"> -->
+				<h3>Superhero</h3>
+			</div>
+			<div class="hero">
+				<img src="https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png">
+				<h3>Batman</h3>
+			</div>
+			<div class="hero">
+				<img src="https://static.wikia.nocookie.net/ironman/images/8/89/Iron_man_mark_85.png/revision/latest/scale-to-width-down/227?cb=20191020193716">
+				<h3>Ironman</h3>
+			</div>
+
+		</div>
+		<div class="footer">
+			<h3>Designed by student</h3>
+		</div>
+	</div>
+
+
+</body>
+</html>
